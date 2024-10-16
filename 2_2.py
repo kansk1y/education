@@ -79,6 +79,10 @@
 # name = input()
 # print('Привет,', name, end='!')
 
-
+one = input()
+two = input()
+three = input()
+four = input()
+print(two, three, four, sep=one)
 
 
