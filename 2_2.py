@@ -79,10 +79,27 @@
 # name = input()
 # print('Привет,', name, end='!')
 
-one = input()
-two = input()
-three = input()
-four = input()
-print(two, three, four, sep=one)
+# one = input()
+# two = input()
+# three = input()
+# four = input()
+# print(two, three, four, sep=one)
+
+# s1 = 'C++'
+# s2 = 'Python'
+# s3 = 'Java'
+# s3 = s2
+# s1 = s3
+
+# print(s1)
+
+# print('Java')
+# print('Ruby')
+# print('Scala')
+print('Python', end='+')  # print('C++')
+# print('GO')
+print('C#', end='=')  # print('C')
+print('awesome')
+# finish
 
 
