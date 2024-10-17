@@ -5,8 +5,8 @@ import json
 url_login = "https://apigw.bi.group/clients/api/v3/mobile/User/loginExternal"
 
 payload_login = json.dumps({
-    "email": "kazakhtelecom@bi.group",
-    "password": "e9(5wF7q8##v"
+    "email": "",
+    "password": ""
 })
 headers_login = {
     'Content-Type': 'application/json-patch+json',
