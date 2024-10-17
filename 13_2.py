@@ -12,12 +12,17 @@
 # print_text('Python', 4)
 
 
+# объявление функции
 def draw_triangle(fill, base):
-    for i in range(1, base+1):
-        print(fill * i)
-    for i in range(base-1, 0 , -1):
-        print(fill * i)
+    for i in (base, -1):
+        print('#' * i)
+    # for i in (base, base-1, +1):
+    #     print('#' * i)
+    
 
+# считываем данные
+fill = '#'
+base = 9
 
-
-draw_triangle('#', 9)
+# вызываем функцию
+draw_triangle(fill, base)
